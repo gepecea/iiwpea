@@ -193,6 +193,7 @@ table {
 			display: block;
 			width: 99vw;
 			height: 60vh;
+			overflowY: hidden;
 		}
 			#logo1{
 				width: 99vw;
