@@ -177,14 +177,14 @@ table {
 				position: fixed;
 				justify-content: space-around;
 				width: 99vw;
-				height: 10vh;
+				height: 8vh;
 				background-color: #c7c7c7;
 				align-items: center;
 				z-index: 999;
 			}
 				navbar a{
 					color: black;
-					font-size: 1em;
+					font-size: 1.3em;
 				}
 				#ppt-a, #ppt-c{
 					display: none;
@@ -207,11 +207,13 @@ table {
 			#title{
 				width: 80vw;
 				color: black;
-				font-size: 2em;
+				font-size: 2.3em;
 				position: absolute;
-				transform: translateY(-55vh);
+				transform: translateY(-59vh);
 				font-weight: bold;
 				margin-left: 30px;
+				line-height: 1.4em;
+				text-align: center;
 			}
 		
 		section{
@@ -250,7 +252,7 @@ table {
 				width: 99vw;
 			}
 			.txt-2{
-				width: 80vw;
+				width: 90vw;
 				margin: 1vh 0;
 				font-size: 1em;
 			}
@@ -260,7 +262,7 @@ table {
 			}
 table {
       border-collapse: collapse;
-      width: 80vw;
+      width: 90vw;
       font-size: 1em;
       line-height: 1.7em;
     }
@@ -298,7 +300,7 @@ table {
 			flex-wrap: wrap;
 			justify-content: space-around;
 			width: 99vw;
-			height: 40vh;
+			height: 30vh;
 			background-color: #f7f7f7; 
 		}
 			#unifei{
