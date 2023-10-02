@@ -134,6 +134,11 @@ table {
 
 /*-----seta-fim-----*/
 #video{
+	display: flex;
+	margin: auto;
+	justify-content: space-around;
+	align-items: center;
+	alingn-content: center;
 	width: 60vw;
 	height: 60vh;
 }
