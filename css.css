@@ -141,6 +141,7 @@ table {
 	alingn-content: center;
 	width: 60vw;
 	height: 60vh;
+	border-radius: 20px;
 }
 	
 		footer{
@@ -341,4 +342,14 @@ table {
 				height: 8vh;
 				width: 99vw;
 			}
+	#video{
+	display: flex;
+	margin: auto;
+	justify-content: space-around;
+	align-items: center;
+	alingn-content: center;
+	width: 240px;
+	height: 150px;
+	border-radius: 20px;
+}
 }
