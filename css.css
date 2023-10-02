@@ -52,6 +52,7 @@
 				font-weight: bold;
 				margin: auto;
 				text-aling: center;
+				opacity: 0;
 			}
 		
 		section{
@@ -139,6 +140,7 @@ table {
 	
 		footer{
 			display: flex;
+			flex-wrap: wrap;
 			justify-content: space-around;
 			width: 99vw;
 			height: 40vh;
