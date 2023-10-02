@@ -132,7 +132,11 @@ table {
 	}
 
 /*-----seta-fim-----*/
-
+#video{
+	width: 50vw;
+	height: 50vh;
+}
+	
 		footer{
 			display: flex;
 			justify-content: space-around;
