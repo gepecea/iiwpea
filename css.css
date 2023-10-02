@@ -141,8 +141,11 @@ table {
 	alingn-content: center;
 	width: 60vw;
 	height: 60vh;
-	border-radius: 20px;
+
 }
+	#video img{
+		border-radius: 20px;		
+	}
 	
 		footer{
 			display: flex;
