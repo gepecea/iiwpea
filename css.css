@@ -178,6 +178,7 @@ table {
 		.span-logo{
 			display: none;
 			background-color: white;
+			position: absolute;
 		}
 			.span-logo:hover{
 				display:flex;
@@ -367,4 +368,12 @@ table {
 		width: 300px;
 		height: 190px;
 	}
+	.span-logo{
+			display: none;
+			background-color: white;
+			position: absolute;
+		}
+			.span-logo:hover{
+				display:flex;
+			}
 }
