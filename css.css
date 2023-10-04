@@ -371,7 +371,10 @@ table {
 		width: 300px;
 		height: 190px;
 	}
-	.span-logo-txt{
+		.span-logo{
+			margin: auto;
+		}
+		.span-logo-txt{
 			display: none;
 			background-color: white;
 			position: absolute;
