@@ -175,6 +175,13 @@ table {
 			.ppt{
 				display: none;
 			}
+		.span-logo{
+			display: none;
+			background-color: white;
+		}
+			.span-logo:hover{
+				display:flex;
+			}
 }
 @media (orientation: portrait){
 	*{
@@ -275,6 +282,7 @@ table {
 				width: 90vw;
 				margin: 1vh 0;
 				font-size: 1em;
+				line-height: 1.2em;
 			}
 			iframe{
 				width: 80vw;
