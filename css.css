@@ -175,12 +175,12 @@ table {
 			.ppt{
 				display: none;
 			}
-		.span-logo{
+		.span-logo-txt{
 			display: none;
 			background-color: white;
 			position: absolute;
 		}
-			.span-logo:hover{
+			.span-logo:hover .span-logo-txt{
 				display:flex;
 			}
 }
@@ -368,12 +368,12 @@ table {
 		width: 300px;
 		height: 190px;
 	}
-	.span-logo{
+	.span-logo-txt{
 			display: none;
 			background-color: white;
 			position: absolute;
 		}
-			.span-logo:hover{
+			.span-logo:hover .span-logo-txt{
 				display:flex;
 			}
 }
