@@ -8,37 +8,6 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" crossorigin="anonymous">
 	<title>II WPEA</title>
 </head>
-	<style>
-    .dashboard {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 20px;
-      max-width: 800px;
-      margin: 40px auto;
-    }
-
-    .card {
-      padding: 16px;
-      background: #f5f5f5;
-      border-radius: 8px;
-      text-align: center;
-    }
-
-    .card h3 {
-      margin: 0 0 8px;
-      font-weight: 600;
-    }
-
-    .card span {
-      font-size: 1.6em;
-      font-weight: bold;
-    }
-
-    .destaque {
-      grid-column: span 2;
-      font-size: 1.4em;
-    }
-  </style>
 <body>
 <!-- seta -->
 <a class="seta" href="#top"><i class="fas fa-arrow-up"></i></a>
@@ -60,17 +29,6 @@
 		<p class="txt-0 apr">Apresentação</p>
 		<p class="txt-1">Os pesquisadores do Grupo de Pesquisa em Educação em Ciências e Educação Ambiental - GEPECEA, da Universidade Federal de Itajubá, propõem a realização do II Workshop “Pesquisa em Educação Ambiental". O evento ocorrerá entre 04 e 05 de dezembro de 2023, na cidade de Itajubá, e objetiva promover a discussão e a análise de fundamentos teóricos e metodológicos para a condução da pesquisa em EA. Com o propósito de enriquecer o evento, ampliando o diálogo e oferecendo oportunidades para a troca de experiências, o Workshop contará com a participação dos pesquisadores do Projeto de Pesquisa “Estado da Arte da Pesquisa em Educação Ambiental no Brasil: Análise de Teses e Dissertações” (Projeto EArte). Trata-se de um projeto de natureza interinstitucional cujo objetivo é o de caracterizar e compreender a trajetória histórica da Pesquisa em EA no Brasil, analisando teses e dissertações produzidas no período 1981-2023 e que tenham como foco a relação entre o processo educativo e a temática ambiental.</p>
 	</section>
-	  <div class="dashboard">
-    <div class="card">
-      <h3>Argentina</h3>
-      <span id="b2">—</span>
-    </div>
-
-    <div class="card">
-      <h3>Brasil</h3>
-      <span id="b8">—</span>
-    </div>
-  </div>
 	<section>
 		<span class="txt-0"></span>
 		<p class="txt-0">Comissão organizadora</p>
@@ -153,21 +111,6 @@
 	</footer>
 
 </body>
-	<script>
-fetch('https://docs.google.com/spreadsheets/d/2PACX-1vQN3tihC9FA9hWILmgstul-U0QZVubG60_DMDej3TUYSXk-Y0Unf3sbW4p0hpHEv6-1DH2XN-/export?format=csv&gid=0')
-  .then(res => res.text())
-  .then(csv => {
-    const linhas = csv.trim().split('\n').map(l => l.split(','));
-
-    // função auxiliar: letra + número → índice
-    function celula(coluna, linha) {
-      const colIndex = coluna.charCodeAt(0) - 65;
-      return linhas[linha - 1][colIndex];
-    }
-
-    document.getElementById('b2').innerText = celula('B', 2);
-    document.getElementById('b8').innerText = celula('B', 8);
-  });
-</script>
 </html>
+
 
